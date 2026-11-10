@@ -34,7 +34,6 @@ tests:
       OCM_FVT_OCM_ENV: production
     post:
     - ref: rosa-e2e-unsilence-alerts
-    - ref: rosa-e2e-collect-cs-telemetry
     pre:
     - ref: rosa-e2e-record-start-time
     - ref: rosa-e2e-silence-alerts
